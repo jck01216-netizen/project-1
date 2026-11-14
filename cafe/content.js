@@ -32,6 +32,8 @@ window.CAFE = {
     { name: '녹차라떼', hotPrice: 3900, icePrice: 3900, category: 'drink', desc: '쌉싸름한 녹차와 우유의 조화', image: 'assets/greentea.jpg', imageDisclosure: '메뉴 연출 이미지', alt: '라떼아트를 올린 녹차라떼 메뉴 연출 이미지' },
     { name: '치즈케이크', price: 5000, category: 'dessert', desc: '커피 곁에 두기 좋은 한 조각', image: 'assets/cheesecake.jpg', imageDisclosure: '메뉴 연출 이미지' },
     { name: '단팥빵', price: 2500, category: 'dessert', desc: '달콤한 단팥이 든 빵', image: 'assets/redbean.jpg', imageDisclosure: '메뉴 연출 이미지' },
+    // 당근케익 사진: Unsplash 무료 라이선스, Orkun Orcan 촬영 (unsplash.com/photos/EvfXG4aK9d8). 실제 매장 메뉴 사진 아님.
+    { name: '당근케익', price: 5500, category: 'dessert', desc: '달콤한 당근케익 한 조각', image: 'assets/carrot.jpg', imageDisclosure: '메뉴 연출 이미지' },
     // 티라미수 사진: Unsplash 무료 라이선스, Aleksandra Tanasiienko 촬영 (unsplash.com/photos/xPBUzVMKKTw). 실제 매장 메뉴 사진 아님.
     { name: '티라미수', price: 5500, category: 'dessert', desc: '코코아 향이 은은한 한 조각', image: 'assets/tiramisu.jpg', imageDisclosure: '메뉴 연출 이미지' }
   ]

@@ -43,8 +43,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .claude/serve.ps1
 
 ## 이미지 제작
 
-첫 화면과 공유 카드는 `assets/og-clover-cake.jpg`를 사용합니다. 이미지 속 손글씨가 잘리지 않도록 1200:630 비율로 전체를 표시하며, 모바일에서는 본문 위에 배치합니다. 대표 이미지 경로·대체텍스트·연출 표시는 `content.js`에서 관리합니다. 공간 소개 사진은 기존 공간 연출 이미지를 유지합니다. 이 카드를 사용해도 당근케이크 메뉴가 추가되지는 않습니다.
-
-`assets/greentea.jpg`(녹차라떼)도 Unsplash 무료 라이선스 사진입니다(Alana Harris 촬영, https://unsplash.com/photos/C63YZ33DdvY, 640×640 크롭). `assets/tiramisu.jpg`(티라미수)도 Unsplash 무료 라이선스 사진입니다(Aleksandra Tanasiienko 촬영, https://unsplash.com/photos/xPBUzVMKKTw, 640×640 크롭). 출처 표기는 의무가 아니지만 기록해 둡니다. 실제 매장 사진이 생기면 교체하세요.
+첫 화면과 공유 카드는 `assets/og-clover-cake.jpg`를 사용합니다. 이미지 속 손글씨가 잘리지 않도록 1200:630 비율로 전체를 표시하며, 모바일에서는 본문 위에 배치합니다. 대표 이미지 경로·대체텍스트·연출 표시는 `content.js`에서 관리합니다. 공간 소개 사진은 기존 공간 연출 이미지를 유지합니다.
+`assets/carrot.jpg`(당근케익, 5,500원)는 Unsplash 무료 라이선스 사진입니다(Orkun Orcan 촬영, https://unsplash.com/photos/EvfXG4aK9d8, 640×640 크롭). `assets/greentea.jpg`(녹차라떼)도 Unsplash 무료 라이선스 사진입니다(Alana Harris 촬영, https://unsplash.com/photos/C63YZ33DdvY, 640×640 크롭). `assets/tiramisu.jpg`(티라미수)도 Unsplash 무료 라이선스 사진입니다(Aleksandra Tanasiienko 촬영, https://unsplash.com/photos/xPBUzVMKKTw, 640×640 크롭). 출처 표기는 의무가 아니지만 기록해 둡니다. 실제 매장 사진이 생기면 교체하세요.
 
 나머지는 내장 image_gen으로 제작하는 연출 이미지입니다. 각 최종 프롬프트는 `image-prompts.json`에 기록합니다. 실제 장소 또는 실제 메뉴를 촬영한 사진이 아닙니다.
