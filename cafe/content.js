@@ -18,8 +18,8 @@ window.CAFE = {
   kakaoChannelUrl: null,
   kakaoEnabled: false,
 
-  heroImage: 'assets/og-clover-cake.jpg',
-  heroAlt: '구선생커피. 커피 한 잔, 정다운 시간. 네 잎 클로버 초콜릿을 올린 당근케이크 메뉴 연출 이미지.',
+  heroImage: 'assets/hero-clover-cake.jpg',
+  heroAlt: '네 잎 클로버 초콜릿을 올린 당근케이크 한 조각과 커피 메뉴 연출 이미지',
   heroDisclosure: '메뉴 연출 이미지 · 실제 제공 형태와 다를 수 있습니다',
 
   // price: 디저트 단일 가격 / hotPrice·icePrice: 음료. null이면 '가격 문의'로 표시됩니다.

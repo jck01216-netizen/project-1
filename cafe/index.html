@@ -27,15 +27,15 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600&display=swap">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-  <link rel="stylesheet" href="styles.css?v=20261114-17">
-  <link rel="preload" as="image" href="assets/og-clover-cake.jpg" fetchpriority="high">
+  <link rel="stylesheet" href="styles.css?v=20261114-18">
+  <link rel="preload" as="image" href="assets/hero-clover-cake.jpg" fetchpriority="high">
   <script>
     // 등장 효과 준비. app.js가 실패해도 3초 뒤 모든 콘텐츠를 보이게 합니다.
     document.documentElement.classList.add('js');
     setTimeout(function () { if (!window.__cafeReady) document.documentElement.classList.remove('js'); }, 3000);
   </script>
-  <script defer src="content.js?v=20261114-17"></script>
-  <script defer src="app.js?v=20261114-17"></script>
+  <script defer src="content.js?v=20261114-18"></script>
+  <script defer src="app.js?v=20261114-18"></script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -105,8 +105,16 @@
       </div>
       <figure class="hero-visual">
         <div class="hero-frame">
-          <img src="assets/og-clover-cake.jpg" width="1200" height="630" fetchpriority="high" decoding="async"
-               alt="구선생커피. 커피 한 잔, 정다운 시간. 네 잎 클로버 초콜릿을 올린 당근케이크 메뉴 연출 이미지.">
+          <div class="postcard-text">
+            <p class="pc-brand">구선생커피</p>
+            <p class="pc-tagline">커피 한 잔,<br>정다운 시간.</p>
+            <p class="pc-tags">공간 · 커피 · 모임</p>
+          </div>
+          <div class="postcard-photo">
+            <img src="assets/hero-clover-cake.jpg" width="548" height="568" fetchpriority="high" decoding="async"
+                 alt="네 잎 클로버 초콜릿을 올린 당근케이크 한 조각과 커피 메뉴 연출 이미지">
+            <span class="img-tag">메뉴 연출 이미지</span>
+          </div>
         </div>
         <figcaption class="postcard-caption" data-hero-disclosure>메뉴 연출 이미지 · 실제 제공 형태와 다를 수 있습니다</figcaption>
         <div class="hero-card" aria-hidden="true">
