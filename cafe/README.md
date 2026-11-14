@@ -22,7 +22,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .claude/serve.ps1
 
 ## 구성
 
-- 첫 화면: 대표 문구, 매장 찾아오기·단체모임 문의 버튼, 20명·주차 6대 배지, 한국 시간 기준 영업 상태 표시
+- 첫 화면: 클로버 초콜릿을 올린 당근케이크 엽서 이미지, 대표 문구, 매장 찾아오기·단체모임 문의 버튼, 20명·주차 6대 배지, 한국 시간 기준 영업 상태 표시
 - 공간: 연출 이미지 3컷(같은 이미지를 다른 구도로 크롭 — 실제 사진 확보 시 `index.html`의 `#space` img src만 교체) + 공간 특징 4개
 - 메뉴: 커피·디저트 그룹, HOT·ICE 동일 가격 표시, 추천 조합(세트 아님 명시)
 - 모임·대관: 조건 4개, 친구/학부모 모임 장면, 문의 3단계, 전화 버튼, 카카오톡 준비 중
@@ -42,6 +42,8 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .claude/serve.ps1
 가상 모델은 합의한 우선순위에 따라 1차에서 제외했습니다. 대관료·예약금·취소 정책은 만들지 않고 상담으로 안내합니다. 외부 배포는 하지 않습니다.
 
 ## 이미지 제작
+
+첫 화면과 공유 카드는 `assets/og-clover-cake.jpg`를 사용합니다. 이미지 속 손글씨가 잘리지 않도록 1200:630 비율로 전체를 표시하며, 모바일에서는 본문 위에 배치합니다. 대표 이미지 경로·대체텍스트·연출 표시는 `content.js`에서 관리합니다. 공간 소개 사진은 기존 공간 연출 이미지를 유지합니다. 이 카드를 사용해도 당근케이크 메뉴가 추가되지는 않습니다.
 
 `assets/greentea.jpg`(녹차라떼)도 Unsplash 무료 라이선스 사진입니다(Alana Harris 촬영, https://unsplash.com/photos/C63YZ33DdvY, 640×640 크롭). `assets/tiramisu.jpg`(티라미수)도 Unsplash 무료 라이선스 사진입니다(Aleksandra Tanasiienko 촬영, https://unsplash.com/photos/xPBUzVMKKTw, 640×640 크롭). 출처 표기는 의무가 아니지만 기록해 둡니다. 실제 매장 사진이 생기면 교체하세요.
 

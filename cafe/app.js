@@ -26,6 +26,7 @@
     $$('.map-link[data-map="kakao"]').forEach(a => { a.href = 'https://map.kakao.com/?q=' + q; });
 
     if (c.heroImage) { const h = $('.hero-frame img'); if (h && h.getAttribute('src') !== c.heroImage) h.src = c.heroImage; }
+    if (c.heroAlt) { const h = $('.hero-frame img'); if (h) h.alt = c.heroAlt; }
 
     if (Array.isArray(c.menus)) renderMenus(c.menus);
 

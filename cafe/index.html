@@ -11,22 +11,31 @@
   <meta property="og:site_name" content="구선생커피">
   <meta property="og:title" content="구선생커피 | 광주 친구·학부모 모임 카페">
   <meta property="og:description" content="통창 햇살과 초록 사이, 편하게 이야기 나누는 동네 카페. 최대 20명 단체 이용·대관 상담, 무료 주차 6대.">
-  <meta property="og:image" content="assets/hero.jpg">
-  <!-- 도메인 확정 후: <link rel="canonical" href="https://..."> 및 og:url, 절대경로 og:image(1200×630) 설정 -->
-  <link rel="icon" href="assets/symbol.svg" type="image/svg+xml">
+  <meta property="og:image" content="assets/og-clover-cake.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="구선생커피. 커피 한 잔, 정다운 시간. 클로버 초콜릿을 올린 당근케이크 메뉴 연출 이미지.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="구선생커피 | 커피 한 잔, 정다운 시간">
+  <meta name="twitter:description" content="친구·학부모 모임, 최대 20명 단체 이용·대관 상담. 무료 주차 6대.">
+  <meta name="twitter:image" content="assets/og-clover-cake.jpg">
+  <meta name="twitter:image:alt" content="구선생커피와 클로버 초콜릿을 올린 당근케이크 메뉴 연출 이미지">
+  <!-- 도메인 확정 후 canonical·og:url 및 og:image·twitter:image를 실제 도메인의 절대 URL로 설정 -->
+  <link rel="icon" href="assets/carrot-cake-favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600&display=swap">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-  <link rel="stylesheet" href="styles.css?v=20261114-14">
-  <link rel="preload" as="image" href="assets/hero.jpg" fetchpriority="high">
+  <link rel="stylesheet" href="styles.css?v=20261114-15">
+  <link rel="preload" as="image" href="assets/og-clover-cake.jpg" fetchpriority="high">
   <script>
     // 등장 효과 준비. app.js가 실패해도 3초 뒤 모든 콘텐츠를 보이게 합니다.
     document.documentElement.classList.add('js');
     setTimeout(function () { if (!window.__cafeReady) document.documentElement.classList.remove('js'); }, 3000);
   </script>
-  <script defer src="content.js?v=20261114-14"></script>
-  <script defer src="app.js?v=20261114-14"></script>
+  <script defer src="content.js?v=20261114-15"></script>
+  <script defer src="app.js?v=20261114-15"></script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -78,7 +87,7 @@
 <main id="main">
 
   <!-- 첫 화면 -->
-  <section class="hero" aria-labelledby="hero-title">
+  <section class="hero hero-postcard" aria-labelledby="hero-title">
     <div class="wrap hero-grid">
       <div class="hero-copy">
         <p class="status-pill" id="open-status" hidden><span class="dot" aria-hidden="true"></span><span class="status-text"></span></p>
@@ -96,10 +105,10 @@
       </div>
       <figure class="hero-visual">
         <div class="hero-frame">
-          <img src="assets/hero.jpg" width="1200" height="800" fetchpriority="high" decoding="async"
-               alt="통창으로 햇살이 들어오고 초록 나무와 우드 테이블, 나무 의자가 놓인 밝은 카페 공간 연출 이미지">
-          <span class="img-tag" data-hero-disclosure>분위기 연출 이미지 · 실제 매장과 다를 수 있습니다</span>
+          <img src="assets/og-clover-cake.jpg" width="1200" height="630" fetchpriority="high" decoding="async"
+               alt="구선생커피. 커피 한 잔, 정다운 시간. 네 잎 클로버 초콜릿을 올린 당근케이크 메뉴 연출 이미지.">
         </div>
+        <figcaption class="postcard-caption" data-hero-disclosure>메뉴 연출 이미지 · 실제 제공 형태와 다를 수 있습니다</figcaption>
         <div class="hero-card" aria-hidden="true">
           <svg class="ico" ><use href="#i-clock"/></svg>
           <div><strong>화–일 07:00–23:00</strong><span>매주 월요일 휴무</span></div>
