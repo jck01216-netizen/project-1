@@ -25,9 +25,9 @@ window.CAFE = {
   // price: 디저트 단일 가격 / hotPrice·icePrice: 음료. null이면 '가격 문의'로 표시됩니다.
   // image가 null이면 '사진 준비 중' 그림이 표시됩니다. imageDisclosure는 사진 위 라벨입니다(실제 사진이면 null).
   menus: [
-    { name: '아메리카노', hotPrice: 2801, icePrice: 2801, category: 'coffee', desc: '부드러운 맛과 은은한 산미', image: 'assets/americano.jpg', imageDisclosure: '메뉴 연출 이미지' },
-    { name: '카페라떼', hotPrice: 3301, icePrice: 3301, category: 'coffee', desc: '우유와 어우러진 고소한 한 잔', image: 'assets/latte.jpg', imageDisclosure: '메뉴 연출 이미지' },
-    { name: '바닐라라떼', hotPrice: 3801, icePrice: 3801, category: 'coffee', desc: '달콤한 바닐라 향의 라떼', image: 'assets/vanilla.jpg', imageDisclosure: '메뉴 연출 이미지' },
+    { name: '아메리카노', hotPrice: 2900, icePrice: 2900, category: 'coffee', desc: '부드러운 맛과 은은한 산미', image: 'assets/americano.jpg', imageDisclosure: '메뉴 연출 이미지' },
+    { name: '카페라떼', hotPrice: 3500, icePrice: 3500, category: 'coffee', desc: '우유와 어우러진 고소한 한 잔', image: 'assets/latte.jpg', imageDisclosure: '메뉴 연출 이미지' },
+    { name: '바닐라라떼', hotPrice: 3900, icePrice: 3900, category: 'coffee', desc: '달콤한 바닐라 향의 라떼', image: 'assets/vanilla.jpg', imageDisclosure: '메뉴 연출 이미지' },
     // 녹차라떼 사진: Unsplash 무료 라이선스, Alana Harris 촬영 (unsplash.com/photos/C63YZ33DdvY). 실제 매장 메뉴 사진 아님.
     { name: '녹차라떼', hotPrice: 3900, icePrice: 3900, category: 'drink', desc: '쌉싸름한 녹차와 우유의 조화', image: 'assets/greentea.jpg', imageDisclosure: '메뉴 연출 이미지', alt: '라떼아트를 올린 녹차라떼 메뉴 연출 이미지' },
     { name: '치즈케이크', price: 5000, category: 'dessert', desc: '커피 곁에 두기 좋은 한 조각', image: 'assets/cheesecake.jpg', imageDisclosure: '메뉴 연출 이미지' },
